@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import CalculatorTemperature from './components/CalculatorTemperature';
+import WelcomeDialog from './components/WelcomeDialog';
 
 ReactDOM.render(
-	<CalculatorTemperature />,
+	<WelcomeDialog />,
 	document.getElementById('root')
 );
