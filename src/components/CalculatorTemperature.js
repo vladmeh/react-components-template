@@ -2,7 +2,7 @@
  * Created by mvl on 15.02.2017.
  */
 import React from 'react';
-import TemperatureInput from './TemperatureInput';
+import TemperatureInput from './CalculatorTemperature/TemperatureInput';
 
 function BoilingVerdict(props) {
 	if (props.celsius >= 100) {
